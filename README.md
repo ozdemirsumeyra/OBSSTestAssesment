@@ -1,6 +1,6 @@
 
 Java 11 ile derlenmiştir.
-Testleri maven üzerinden direk mvn komutlari ile calistirabilirsiniz.
+Testleri maven üzerinden direkt mvn komutları ile çalıştırabilirsiniz.
 
 ```
 mvn install
