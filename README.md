@@ -1,5 +1,5 @@
 
-Java 8 ile derlenmiştir.
+Java 11 ile derlenmiştir.
 Testleri maven üzerinden direk mvn komutlari ile calistirabilirsiniz.
 
 ```
