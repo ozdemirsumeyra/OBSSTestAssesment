@@ -1,0 +1,76 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 11,
+        "name": "OBSS test Case",
+        "description": "",
+        "id": "ui-automation-test-case;obss-test-case;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4278744000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "open website with \"chrome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "chrome",
+                  "offset": 19
+                }
+              ],
+              "location": "SearchStepDefinitions.open_site(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5013877800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Search text with \"Automation\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Automation",
+                  "offset": 18
+                }
+              ],
+              "location": "SearchStepDefinitions.searchText(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 166925800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "control footer",
+            "match": {
+              "location": "SearchStepDefinitions.controlFooter()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "UI AUtomation Test Case",
+    "description": "",
+    "id": "ui-automation-test-case",
+    "keyword": "Feature",
+    "uri": "obssTestCase.feature"
+  }
+]
